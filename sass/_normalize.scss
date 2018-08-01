@@ -67,8 +67,25 @@ main { /* 1 */
  * Add the correct margin in IE 8.
  */
 
+// figure {
+  // margin: 1em 40px;
+// }
+
 figure {
-  margin: 1em 40px;
+    // border: thin #c0c0c0 solid;
+    // display: flex;
+    display: block;
+    // flex-flow: column;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+figcaption {
+    background-color:  #e1e1ea;
+    color: #000;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
 }
 
 /**
